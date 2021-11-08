@@ -15,6 +15,9 @@ import plotly.express as px
 import streamlit.components.v1 as components
 import requests
 import gc
+import pyautogui
+import time
+import pyperclip
 
 
 def load_lottieurl(url: str):
